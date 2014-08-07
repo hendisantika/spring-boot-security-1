@@ -11891,3 +11891,1676 @@ java.lang.IllegalArgumentException: Template name cannot be null or empty
 2014-08-07 15:34:34.794  INFO 4970 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : delete
 2014-08-07 15:34:34.810  INFO 4970 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
 2014-08-07 15:34:34.822  INFO 4970 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 15:50:30.955  INFO 4970 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/add-POST
+2014-08-07 15:50:30.996  INFO 4970 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 15:50:31.009  INFO 4970 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 15:50:34.632  INFO 4970 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 15:50:40.568  INFO 4970 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-POST
+2014-08-07 15:50:40.568  INFO 4970 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : strategy/edit-POST : cancel
+2014-08-07 15:50:40.574  INFO 4970 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 15:50:40.587  INFO 4970 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 15:50:41.621  INFO 4970 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 15:50:41.634  INFO 4970 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 15:50:51.743  INFO 4970 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 15:50:51.754  INFO 4970 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : delete
+2014-08-07 15:50:51.769  INFO 4970 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 15:50:51.779  INFO 4970 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 16:13:01.956  INFO 5207 [main] --- org.qifeng.sbs.App                       : Starting App on jackho-Mac.local with PID 5207 (/Users/jackho/spring/Qifeng/source/sbs/target/classes started by jackho in /Users/jackho/spring/Qifeng/source/sbs)
+2014-08-07 16:13:02.043  INFO 5207 [main] --- ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7bf1f2c6: startup date [Thu Aug 07 16:13:02 CST 2014]; root of context hierarchy
+2014-08-07 16:13:03.190  INFO 5207 [main] --- o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2014-08-07 16:13:04.495  INFO 5207 [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$733a733a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-08-07 16:13:04.542  INFO 5207 [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-08-07 16:13:04.559  INFO 5207 [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-08-07 16:13:04.566  INFO 5207 [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-08-07 16:13:05.219  INFO 5207 [main] --- .t.TomcatEmbeddedServletContainerFactory : Server initialized with port: 8090
+2014-08-07 16:13:05.486  INFO 5207 [main] --- o.apache.catalina.core.StandardService   : Starting service Tomcat
+2014-08-07 16:13:05.487  INFO 5207 [main] --- org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/7.0.54
+2014-08-07 16:13:05.702  INFO 5207 [localhost-startStop-1] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2014-08-07 16:13:05.703  INFO 5207 [localhost-startStop-1] --- o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3665 ms
+2014-08-07 16:13:06.766  INFO 5207 [localhost-startStop-1] --- o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2014-08-07 16:13:06.771  INFO 5207 [localhost-startStop-1] --- o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2014-08-07 16:13:07.125  INFO 5207 [main] --- o.s.j.d.DriverManagerDataSource          : Loaded JDBC driver: com.mysql.jdbc.Driver
+2014-08-07 16:13:07.691  INFO 5207 [main] --- j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2014-08-07 16:13:07.723  INFO 5207 [main] --- o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2014-08-07 16:13:07.880  INFO 5207 [main] --- org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.5.Final}
+2014-08-07 16:13:07.882  INFO 5207 [main] --- org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2014-08-07 16:13:07.885  INFO 5207 [main] --- org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2014-08-07 16:13:08.313  INFO 5207 [main] --- o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2014-08-07 16:13:08.440  INFO 5207 [main] --- org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2014-08-07 16:13:08.612  INFO 5207 [main] --- o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2014-08-07 16:13:09.348  INFO 5207 [main] --- org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2014-08-07 16:13:09.354  INFO 5207 [main] --- o.h.e.t.i.TransactionFactoryInitiator    : HHH000399: Using default transaction strategy (direct JDBC transactions)
+2014-08-07 16:13:09.355  INFO 5207 [main] --- o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2014-08-07 16:13:09.442  INFO 5207 [main] --- o.s.o.h.HibernateTransactionManager      : Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@162382a5] of Hibernate SessionFactory for HibernateTransactionManager
+2014-08-07 16:13:09.747  INFO 5207 [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-08-07 16:13:09.973  INFO 5207 [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.qifeng.sbs.controller.HomeController.index()
+2014-08-07 16:13:09.974  INFO 5207 [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getParam],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String org.qifeng.sbs.controller.HomeController.getParam(java.lang.Integer)
+2014-08-07 16:13:09.977  INFO 5207 [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/strategy/list],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String org.qifeng.sbs.controller.StrategyController.listOfStrategies(org.springframework.ui.Model)
+2014-08-07 16:13:09.977  INFO 5207 [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/strategy/add],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String org.qifeng.sbs.controller.StrategyController.addingStrategy(org.qifeng.sbs.model.Strategy,org.springframework.ui.Model)
+2014-08-07 16:13:09.978  INFO 5207 [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/strategy/edit],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String org.qifeng.sbs.controller.StrategyController.editStrategyPage(java.lang.Integer,org.springframework.ui.Model)
+2014-08-07 16:13:09.978  INFO 5207 [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/strategy/edit],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String org.qifeng.sbs.controller.StrategyController.editStrategy(org.qifeng.sbs.model.Strategy,org.springframework.ui.Model,java.lang.String)
+2014-08-07 16:13:09.978  INFO 5207 [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/strategy/delete],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String org.qifeng.sbs.controller.StrategyController.deleteStrategy(java.lang.Integer,java.lang.String,org.springframework.ui.Model)
+2014-08-07 16:13:09.984  INFO 5207 [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2014-08-07 16:13:09.985  INFO 5207 [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2014-08-07 16:13:10.035  INFO 5207 [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-08-07 16:13:10.036  INFO 5207 [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-08-07 16:13:10.694  INFO 5207 [main] --- o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2014-08-07 16:13:10.908  INFO 5207 [main] --- s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8090/http
+2014-08-07 16:13:10.912  INFO 5207 [main] --- org.qifeng.sbs.App                       : Started App in 9.688 seconds (JVM running for 10.96)
+2014-08-07 16:13:22.445  INFO 5207 [http-nio-8090-exec-1] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2014-08-07 16:13:22.446  INFO 5207 [http-nio-8090-exec-1] --- o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2014-08-07 16:13:22.467  INFO 5207 [http-nio-8090-exec-1] --- o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2014-08-07 16:17:24.596  INFO 5207 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 16:17:24.892  INFO 5207 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 16:43:51.727  INFO 5207 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 16:43:51.766  INFO 5207 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 16:54:47.905  INFO 5207 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 16:54:47.933  INFO 5207 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 16:55:03.557  INFO 5207 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 16:55:03.573  INFO 5207 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 16:55:09.061  INFO 5207 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 16:55:09.073  INFO 5207 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 16:55:14.032  INFO 5207 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 16:55:14.048  INFO 5207 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 16:55:18.393  INFO 5207 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 16:55:18.408  INFO 5207 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 16:55:23.852  INFO 5207 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 16:55:23.870  INFO 5207 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 16:55:29.336  INFO 5207 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 16:55:29.350  INFO 5207 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 16:55:40.423  INFO 5207 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 16:55:40.439  INFO 5207 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 16:55:46.959  INFO 5207 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 16:55:46.972  INFO 5207 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 16:56:24.012  INFO 5207 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 16:56:24.025  INFO 5207 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 16:56:46.347  INFO 5207 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 16:56:46.360  INFO 5207 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 16:57:06.338  INFO 5207 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 16:57:06.356  INFO 5207 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 16:57:16.580  INFO 5207 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 16:57:16.594  INFO 5207 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 16:57:25.480  INFO 5207 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 16:57:25.498  INFO 5207 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 16:58:01.826  INFO 5207 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 16:58:01.839  INFO 5207 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:00:36.854  INFO 5207 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:00:36.868  INFO 5207 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:00:58.230  INFO 5207 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:00:58.244  INFO 5207 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:01:02.987  INFO 5207 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:01:03.004  INFO 5207 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:01:05.086  INFO 5207 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:01:05.098  INFO 5207 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:01:17.620  INFO 5207 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:01:17.641  INFO 5207 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:01:22.404  INFO 5207 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:01:22.421  INFO 5207 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:01:28.579  INFO 5207 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:01:28.594  INFO 5207 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:01:33.380  INFO 5207 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:01:33.392  INFO 5207 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:02:33.668  INFO 5207 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:02:33.684  INFO 5207 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:02:42.852  INFO 5207 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:02:42.867  INFO 5207 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:02:48.446  INFO 5207 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:02:48.460  INFO 5207 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:02:53.899  INFO 5207 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:02:53.913  INFO 5207 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:03:01.705  INFO 5207 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:03:01.717  INFO 5207 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:03:05.137  INFO 5207 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:03:05.154  INFO 5207 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:03:17.204  INFO 5207 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:03:17.220  INFO 5207 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:03:23.314  INFO 5207 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:03:23.328  INFO 5207 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:03:24.418  INFO 5207 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:03:24.429  INFO 5207 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:03:25.473  INFO 5207 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:03:25.483  INFO 5207 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:03:28.883  INFO 5207 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:03:28.894  INFO 5207 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:03:32.803  INFO 5207 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:03:32.819  INFO 5207 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:03:42.592  INFO 5207 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:03:42.606  INFO 5207 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:03:47.968  INFO 5207 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:03:47.981  INFO 5207 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:04:01.522  INFO 5207 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:04:01.532  INFO 5207 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:04:17.864  INFO 5207 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:04:17.881  INFO 5207 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:04:25.882  INFO 5207 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:04:25.894  INFO 5207 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:04:26.703  INFO 5207 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:04:26.713  INFO 5207 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:05:20.759  INFO 5207 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:05:20.769  INFO 5207 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:05:55.859  INFO 5207 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:07:17.139  INFO 5207 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:07:17.149  INFO 5207 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:07:41.374  INFO 5207 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:07:41.386  INFO 5207 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:07:55.210  INFO 5207 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:07:55.224  INFO 5207 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:08:24.739  INFO 5207 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:08:24.750  INFO 5207 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:08:33.377  INFO 5207 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:08:33.392  INFO 5207 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:08:48.130  INFO 5207 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:08:48.143  INFO 5207 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:09:04.351  INFO 5207 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:09:04.361  INFO 5207 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:09:09.785  INFO 5207 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:09:09.798  INFO 5207 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:09:25.765  INFO 5207 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:09:25.778  INFO 5207 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:09:38.168  INFO 5207 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:09:38.178  INFO 5207 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:10:00.389  INFO 5207 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:10:00.421  INFO 5207 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:10:08.911  INFO 5207 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:10:08.923  INFO 5207 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:10:13.815  INFO 5207 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:10:13.824  INFO 5207 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:10:24.923  INFO 5207 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:11:20.613  INFO 5207 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:11:20.624  INFO 5207 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:11:25.128  INFO 5207 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:11:25.140  INFO 5207 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:12:02.236  INFO 5207 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:12:02.246  INFO 5207 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:12:07.666  INFO 5207 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:12:07.679  INFO 5207 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:12:39.603  INFO 5207 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:12:39.614  INFO 5207 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:12:45.625  INFO 5207 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:12:45.659  INFO 5207 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:12:52.184  INFO 5207 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:12:54.048  INFO 5207 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 17:12:54.056  INFO 5207 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 17:14:49.992  INFO 5207 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:14:50.003  INFO 5207 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:14:51.720  INFO 5207 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:14:51.729  INFO 5207 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:15:19.839  INFO 5207 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:15:19.849  INFO 5207 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:17:30.611  INFO 5207 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:17:30.620  INFO 5207 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:17:33.348  INFO 5207 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:17:33.357  INFO 5207 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:17:34.403  INFO 5207 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:17:34.413  INFO 5207 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:21:22.095  INFO 5207 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:21:22.104  INFO 5207 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:21:30.214  INFO 5207 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:21:30.227  INFO 5207 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:21:34.278  INFO 5207 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:21:34.287  INFO 5207 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:22:06.605  INFO 5207 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:22:06.617  INFO 5207 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:22:08.101  INFO 5207 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:22:08.110  INFO 5207 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:22:09.876  INFO 5207 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:22:09.885  INFO 5207 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:22:13.397  INFO 5207 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:22:13.407  INFO 5207 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:22:45.404  INFO 5207 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:22:45.419  INFO 5207 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:22:51.466  INFO 5207 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:22:51.477  INFO 5207 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:22:55.844  INFO 5207 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:22:55.868  INFO 5207 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:22:57.651  INFO 5207 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:22:57.661  INFO 5207 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:23:16.403  INFO 5207 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:23:16.414  INFO 5207 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:23:18.707  INFO 5207 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:23:18.716  INFO 5207 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:23:28.251  INFO 5207 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:23:28.262  INFO 5207 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:24:52.217  INFO 5207 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:24:52.229  INFO 5207 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:24:54.512  INFO 5207 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:24:54.521  INFO 5207 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:25:05.378  INFO 5552 [main] --- org.qifeng.sbs.App                       : Starting App on jackho-Mac.local with PID 5552 (/Users/jackho/spring/Qifeng/source/sbs/target/classes started by jackho in /Users/jackho/spring/Qifeng/source/sbs)
+2014-08-07 17:25:05.470  INFO 5552 [main] --- ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e3f6f3: startup date [Thu Aug 07 17:25:05 CST 2014]; root of context hierarchy
+2014-08-07 17:25:06.575  INFO 5552 [main] --- o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2014-08-07 17:25:07.802  INFO 5552 [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4f7c4e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-08-07 17:25:07.841  INFO 5552 [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-08-07 17:25:07.855  INFO 5552 [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-08-07 17:25:07.863  INFO 5552 [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-08-07 17:25:08.500  INFO 5552 [main] --- .t.TomcatEmbeddedServletContainerFactory : Server initialized with port: 8090
+2014-08-07 17:25:08.777  INFO 5552 [main] --- o.apache.catalina.core.StandardService   : Starting service Tomcat
+2014-08-07 17:25:08.779  INFO 5552 [main] --- org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/7.0.54
+2014-08-07 17:25:08.980  INFO 5552 [localhost-startStop-1] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2014-08-07 17:25:08.981  INFO 5552 [localhost-startStop-1] --- o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3517 ms
+2014-08-07 17:25:09.987  INFO 5552 [localhost-startStop-1] --- o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2014-08-07 17:25:09.997  INFO 5552 [localhost-startStop-1] --- o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2014-08-07 17:25:10.312  INFO 5552 [main] --- o.s.j.d.DriverManagerDataSource          : Loaded JDBC driver: com.mysql.jdbc.Driver
+2014-08-07 17:25:10.939  INFO 5552 [main] --- j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2014-08-07 17:25:10.959  INFO 5552 [main] --- o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2014-08-07 17:25:11.113  INFO 5552 [main] --- org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.5.Final}
+2014-08-07 17:25:11.115  INFO 5552 [main] --- org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2014-08-07 17:25:11.117  INFO 5552 [main] --- org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2014-08-07 17:25:11.563  INFO 5552 [main] --- o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2014-08-07 17:25:11.676  INFO 5552 [main] --- org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2014-08-07 17:25:11.843  INFO 5552 [main] --- o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2014-08-07 17:25:12.497  INFO 5552 [main] --- org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2014-08-07 17:25:12.502  INFO 5552 [main] --- o.h.e.t.i.TransactionFactoryInitiator    : HHH000399: Using default transaction strategy (direct JDBC transactions)
+2014-08-07 17:25:12.503  INFO 5552 [main] --- o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2014-08-07 17:25:12.574  INFO 5552 [main] --- o.s.o.h.HibernateTransactionManager      : Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@4ff0678c] of Hibernate SessionFactory for HibernateTransactionManager
+2014-08-07 17:25:12.828  INFO 5552 [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-08-07 17:25:13.007  INFO 5552 [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.qifeng.sbs.controller.HomeController.index()
+2014-08-07 17:25:13.008  INFO 5552 [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getParam],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String org.qifeng.sbs.controller.HomeController.getParam(java.lang.Integer)
+2014-08-07 17:25:13.011  INFO 5552 [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/strategy/list],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String org.qifeng.sbs.controller.StrategyController.listOfStrategies(org.springframework.ui.Model)
+2014-08-07 17:25:13.011  INFO 5552 [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/strategy/add],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String org.qifeng.sbs.controller.StrategyController.addingStrategy(org.qifeng.sbs.model.Strategy,org.springframework.ui.Model)
+2014-08-07 17:25:13.012  INFO 5552 [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/strategy/edit],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String org.qifeng.sbs.controller.StrategyController.editStrategyPage(java.lang.Integer,org.springframework.ui.Model)
+2014-08-07 17:25:13.012  INFO 5552 [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/strategy/edit],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String org.qifeng.sbs.controller.StrategyController.editStrategy(org.qifeng.sbs.model.Strategy,org.springframework.ui.Model,java.lang.String)
+2014-08-07 17:25:13.012  INFO 5552 [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/strategy/delete],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String org.qifeng.sbs.controller.StrategyController.deleteStrategy(java.lang.Integer,java.lang.String,org.springframework.ui.Model)
+2014-08-07 17:25:13.018  INFO 5552 [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2014-08-07 17:25:13.018  INFO 5552 [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2014-08-07 17:25:13.073  INFO 5552 [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-08-07 17:25:13.074  INFO 5552 [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2014-08-07 17:25:13.608  INFO 5552 [main] --- o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2014-08-07 17:25:13.788  INFO 5552 [main] --- s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8090/http
+2014-08-07 17:25:13.791  INFO 5552 [main] --- org.qifeng.sbs.App                       : Started App in 9.257 seconds (JVM running for 10.528)
+2014-08-07 17:25:21.653  INFO 5552 [http-nio-8090-exec-1] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2014-08-07 17:25:21.654  INFO 5552 [http-nio-8090-exec-1] --- o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2014-08-07 17:25:21.680  INFO 5552 [http-nio-8090-exec-1] --- o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2014-08-07 17:25:21.794  INFO 5552 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:25:22.211  INFO 5552 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:26:29.842  INFO 5552 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:26:29.856  INFO 5552 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:26:44.128  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:26:44.142  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:39:35.516  INFO 5552 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:39:35.532  INFO 5552 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:39:37.605  INFO 5552 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:39:37.651 ERROR 5552 [http-nio-8090-exec-4] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Exception parsing document: template="strategy-edit", line 74 - column 3] with root cause
+
+org.xml.sax.SAXParseException: The element type "div" must be terminated by the matching end-tag "</div>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1388)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1709)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2900)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:607)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:489)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:835)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:123)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1210)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:568)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:302)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:133)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116)
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:277)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1221)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1005)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:952)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1720)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+2014-08-07 17:40:03.178  INFO 5552 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:40:03.194 ERROR 5552 [http-nio-8090-exec-6] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Exception parsing document: template="strategy-edit", line 76 - column 3] with root cause
+
+org.xml.sax.SAXParseException: The element type "div" must be terminated by the matching end-tag "</div>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1388)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1709)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2900)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:607)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:489)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:835)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:123)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1210)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:568)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:302)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:133)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116)
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:277)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1221)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1005)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:952)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1720)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+2014-08-07 17:40:05.962  INFO 5552 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:40:05.979  INFO 5552 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:40:08.470  INFO 5552 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:40:08.486 ERROR 5552 [http-nio-8090-exec-8] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Exception parsing document: template="strategy-edit", line 76 - column 3] with root cause
+
+org.xml.sax.SAXParseException: The element type "div" must be terminated by the matching end-tag "</div>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1388)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1709)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2900)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:607)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:489)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:835)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:123)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1210)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:568)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:302)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:133)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116)
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:277)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1221)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1005)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:952)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1720)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+2014-08-07 17:41:32.399  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:42:26.319  INFO 5552 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:42:30.967  INFO 5552 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:42:35.293  INFO 5552 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:42:41.311  INFO 5552 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:42:43.757  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:42:45.533  INFO 5552 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:42:50.325  INFO 5552 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:47:30.430  INFO 5552 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:47:52.074  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:47:58.014  INFO 5552 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:48:13.597  INFO 5552 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:48:18.253  INFO 5552 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:52:11.296  INFO 5552 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:52:13.783  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:52:25.408  INFO 5552 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:52:32.477  INFO 5552 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:52:36.952  INFO 5552 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:52:41.653  INFO 5552 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:52:44.834  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:53:08.918  INFO 5552 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:53:19.930  INFO 5552 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-POST
+2014-08-07 17:53:19.930  INFO 5552 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : strategy/edit-POST : cancel
+2014-08-07 17:53:19.943  INFO 5552 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:53:19.955  INFO 5552 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:53:21.933  INFO 5552 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:53:28.636  INFO 5552 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:53:30.159  INFO 5552 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-POST
+2014-08-07 17:53:30.159  INFO 5552 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : strategy/edit-POST : cancel
+2014-08-07 17:53:30.165  INFO 5552 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:53:30.177  INFO 5552 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:53:38.012  INFO 5552 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:53:46.540  INFO 5552 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:53:54.804  INFO 5552 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:54:11.651  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:54:15.870  INFO 5552 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:54:19.945  INFO 5552 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:54:21.092  INFO 5552 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:54:23.324  INFO 5552 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:54:26.115  INFO 5552 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:54:27.340  INFO 5552 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:54:28.148  INFO 5552 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:54:29.783  INFO 5552 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:54:31.631  INFO 5552 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:54:53.233  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-POST
+2014-08-07 17:54:53.234  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : strategy/edit-POST : cancel
+2014-08-07 17:54:53.241  INFO 5552 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:54:53.252  INFO 5552 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:54:54.289  INFO 5552 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:54:55.074  INFO 5552 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-POST
+2014-08-07 17:54:55.074  INFO 5552 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : strategy/edit-POST : cancel
+2014-08-07 17:54:55.080  INFO 5552 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:54:55.099  INFO 5552 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:54:56.079  INFO 5552 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 17:54:56.092  INFO 5552 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 17:55:10.433  INFO 5552 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:55:11.715  INFO 5552 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-POST
+2014-08-07 17:55:11.715  INFO 5552 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : strategy/edit-POST : cancel
+2014-08-07 17:55:11.725  INFO 5552 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:55:11.736  INFO 5552 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:55:13.312  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:55:14.242  INFO 5552 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-POST
+2014-08-07 17:55:14.243  INFO 5552 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : strategy/edit-POST : cancel
+2014-08-07 17:55:14.249  INFO 5552 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:55:14.260  INFO 5552 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:55:15.337  INFO 5552 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 17:55:16.105  INFO 5552 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-POST
+2014-08-07 17:55:16.105  INFO 5552 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : strategy/edit-POST : cancel
+2014-08-07 17:55:16.111  INFO 5552 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:55:16.123  INFO 5552 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:55:28.147  INFO 5552 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/add-POST
+2014-08-07 17:55:28.196  INFO 5552 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:55:28.208  INFO 5552 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:55:30.184  INFO 5552 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 17:55:30.197  INFO 5552 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 17:55:31.417  INFO 5552 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 17:55:31.427  INFO 5552 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : cancel
+2014-08-07 17:55:31.432  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:55:31.447  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:55:33.008  INFO 5552 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 17:55:33.018  INFO 5552 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 17:55:33.967  INFO 5552 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 17:55:33.974  INFO 5552 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : delete
+2014-08-07 17:55:34.012  INFO 5552 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:55:34.025  INFO 5552 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 17:55:36.595  INFO 5552 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 17:55:36.605  INFO 5552 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 18:14:50.717  INFO 5552 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 18:14:50.739  INFO 5552 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 18:14:51.940  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:14:51.949  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:14:51.972 ERROR 5552 [http-nio-8090-exec-9] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Exception parsing document: template="strategy-delete", line 42 - column 19] with root cause
+
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "type".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:781)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1507)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1280)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2717)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:607)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:489)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:835)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:123)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1210)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:568)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:302)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:133)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116)
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:277)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1221)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1005)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:952)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1720)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+2014-08-07 18:15:22.499  INFO 5552 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:15:22.510  INFO 5552 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:15:22.515 ERROR 5552 [http-nio-8090-exec-10] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Exception parsing document: template="strategy-delete", line 42 - column 19] with root cause
+
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "type".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:781)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1507)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1280)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2717)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:607)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:489)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:835)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:123)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1210)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:568)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:302)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:133)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116)
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:277)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1221)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1005)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:952)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1720)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+2014-08-07 18:15:37.636  INFO 5552 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:15:37.645  INFO 5552 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:15:37.650 ERROR 5552 [http-nio-8090-exec-1] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Exception parsing document: template="strategy-delete", line 42 - column 19] with root cause
+
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "type".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:781)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1507)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1280)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2717)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:607)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:489)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:835)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:123)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1210)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:568)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:302)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:133)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116)
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:277)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1221)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1005)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:952)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1720)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+2014-08-07 18:15:56.947  INFO 5552 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:15:56.956  INFO 5552 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:15:56.962 ERROR 5552 [http-nio-8090-exec-2] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Exception parsing document: template="strategy-delete", line 42 - column 19] with root cause
+
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "type".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:781)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1507)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1280)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2717)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:607)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:489)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:835)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:123)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1210)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:568)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:302)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:133)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116)
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:277)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1221)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1005)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:952)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1720)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+2014-08-07 18:16:55.650  INFO 5552 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:16:55.658  INFO 5552 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:16:55.663 ERROR 5552 [http-nio-8090-exec-3] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Exception parsing document: template="strategy-delete", line 42 - column 19] with root cause
+
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "type".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:781)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1507)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1280)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2717)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:607)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:489)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:835)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:123)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1210)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:568)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:302)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:133)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116)
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:277)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1221)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1005)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:952)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1720)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+2014-08-07 18:17:06.249  INFO 5552 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:17:06.257  INFO 5552 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:17:25.816  INFO 5552 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:17:25.825  INFO 5552 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:17:31.761  INFO 5552 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:17:31.770  INFO 5552 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:17:38.161  INFO 5552 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:17:38.171  INFO 5552 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:17:41.935  INFO 5552 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:17:41.945  INFO 5552 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:17:44.819  INFO 5552 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:17:44.829  INFO 5552 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:17:44.834 ERROR 5552 [http-nio-8090-exec-5] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Exception parsing document: template="strategy-delete", line 42 - column 19] with root cause
+
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "type".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:781)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1507)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1280)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2717)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:607)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:489)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:835)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:123)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1210)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:568)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:302)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:133)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116)
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:277)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1221)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1005)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:952)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1720)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+2014-08-07 18:17:57.337  INFO 5552 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:17:57.348  INFO 5552 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:17:57.353 ERROR 5552 [http-nio-8090-exec-4] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Exception parsing document: template="strategy-delete", line 42 - column 19] with root cause
+
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "type".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:781)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1507)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1280)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2717)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:607)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:489)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:835)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:123)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1210)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:568)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:302)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:133)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116)
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:277)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1221)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1005)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:952)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1720)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+2014-08-07 18:18:00.336  INFO 5552 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:18:00.345  INFO 5552 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:18:00.349 ERROR 5552 [http-nio-8090-exec-6] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Exception parsing document: template="strategy-delete", line 42 - column 19] with root cause
+
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "type".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:781)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1507)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1280)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2717)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:607)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:489)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:835)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:123)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1210)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:568)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:302)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:133)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116)
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:277)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1221)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1005)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:952)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1720)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+2014-08-07 18:18:17.328  INFO 5552 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:18:17.335  INFO 5552 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:18:17.340 ERROR 5552 [http-nio-8090-exec-7] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateProcessingException: Error during execution of processor 'org.thymeleaf.spring4.processor.attr.SpringInputGeneralFieldAttrProcessor' (strategy-delete:43)] with root cause
+
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'strategyDTO' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:144)
+	at org.thymeleaf.spring4.util.FieldUtils.getBindStatusFromParsedExpression(FieldUtils.java:348)
+	at org.thymeleaf.spring4.util.FieldUtils.getBindStatus(FieldUtils.java:293)
+	at org.thymeleaf.spring4.util.FieldUtils.getBindStatus(FieldUtils.java:260)
+	at org.thymeleaf.spring4.processor.attr.AbstractSpringFieldAttrProcessor.processAttribute(AbstractSpringFieldAttrProcessor.java:97)
+	at org.thymeleaf.processor.attr.AbstractAttrProcessor.doProcess(AbstractAttrProcessor.java:87)
+	at org.thymeleaf.processor.AbstractProcessor.process(AbstractProcessor.java:212)
+	at org.thymeleaf.dom.Node.applyNextProcessor(Node.java:1016)
+	at org.thymeleaf.dom.Node.processNode(Node.java:971)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:672)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:655)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:672)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:655)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:672)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:655)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:672)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:655)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:672)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:655)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:672)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:655)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:672)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:655)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:672)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:655)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:672)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:655)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:672)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:655)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.Document.process(Document.java:93)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1155)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1221)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1005)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:952)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1720)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+2014-08-07 18:18:29.446  INFO 5552 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:18:29.454  INFO 5552 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:18:29.460 ERROR 5552 [http-nio-8090-exec-8] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Exception parsing document: template="strategy-delete", line 42 - column 19] with root cause
+
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "type".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:781)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1507)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1280)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2717)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:607)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:489)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:835)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:123)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1210)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:568)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:302)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:133)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116)
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:277)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1221)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1005)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:952)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1720)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+2014-08-07 18:18:33.678  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:18:33.686  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:18:33.692 ERROR 5552 [http-nio-8090-exec-9] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Exception parsing document: template="strategy-delete", line 42 - column 19] with root cause
+
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "type".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:781)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1507)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1280)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2717)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:607)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:489)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:835)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:123)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1210)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:568)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:302)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:133)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116)
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:277)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1221)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1005)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:952)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1720)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+2014-08-07 18:18:48.651  INFO 5552 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:18:48.681  INFO 5552 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:18:48.685 ERROR 5552 [http-nio-8090-exec-10] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Exception parsing document: template="strategy-delete", line 42 - column 19] with root cause
+
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "type".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:781)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1507)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1280)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2717)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:607)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:489)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:835)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:123)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1210)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:568)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:302)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:133)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116)
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:277)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1221)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1005)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:952)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1720)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+2014-08-07 18:18:51.277  INFO 5552 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:18:51.288  INFO 5552 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:18:51.292 ERROR 5552 [http-nio-8090-exec-1] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Exception parsing document: template="strategy-delete", line 42 - column 19] with root cause
+
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "type".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:781)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1507)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1280)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2717)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:607)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:489)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:835)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:123)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1210)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:568)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:302)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:133)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116)
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:277)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1221)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1005)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:952)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1720)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+2014-08-07 18:19:05.653  INFO 5552 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:19:05.664  INFO 5552 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:19:11.373  INFO 5552 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:19:11.383  INFO 5552 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:19:30.078  INFO 5552 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:19:30.087  INFO 5552 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:19:39.429  INFO 5552 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:19:39.440  INFO 5552 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:19:45.910  INFO 5552 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:19:45.919  INFO 5552 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:19:45.924 ERROR 5552 [http-nio-8090-exec-10] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Exception parsing document: template="strategy-delete", line 60 - column 5] with root cause
+
+org.xml.sax.SAXParseException: The content of elements must consist of well-formed character data or markup.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1388)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.startOfMarkup(XMLDocumentFragmentScannerImpl.java:2567)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2665)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:607)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:489)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:835)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:123)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1210)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:568)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:302)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:133)
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116)
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:277)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1221)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1005)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:952)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1720)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+2014-08-07 18:19:55.653  INFO 5552 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:19:55.661  INFO 5552 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:19:59.645  INFO 5552 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:19:59.654  INFO 5552 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:20:05.673  INFO 5552 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:20:05.681 ERROR 5552 [http-nio-8090-exec-4] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at org.qifeng.sbs.controller.StrategyController.deleteStrategy(StrategyController.java:88)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:749)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:689)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1720)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+2014-08-07 18:20:22.607  INFO 5552 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 18:20:22.617  INFO 5552 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 18:20:24.634  INFO 5552 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 18:20:25.451  INFO 5552 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-POST
+2014-08-07 18:20:25.452  INFO 5552 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : strategy/edit-POST : cancel
+2014-08-07 18:20:25.458  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 18:20:25.470  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 18:20:26.544  INFO 5552 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 18:20:27.549  INFO 5552 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-POST
+2014-08-07 18:20:27.550  INFO 5552 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : strategy/edit-POST : save
+2014-08-07 18:20:27.565  INFO 5552 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 18:20:27.579  INFO 5552 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 18:20:28.714  INFO 5552 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:20:28.722  INFO 5552 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:20:30.914  INFO 5552 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:20:30.918 ERROR 5552 [http-nio-8090-exec-5] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at org.qifeng.sbs.controller.StrategyController.deleteStrategy(StrategyController.java:88)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:749)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:689)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1720)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+2014-08-07 18:21:16.354  INFO 5552 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:21:16.357 ERROR 5552 [http-nio-8090-exec-4] --- o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at org.qifeng.sbs.controller.StrategyController.deleteStrategy(StrategyController.java:88)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:749)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:689)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1720)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+2014-08-07 18:21:21.874  INFO 5552 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 18:21:21.884  INFO 5552 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 18:21:23.457  INFO 5552 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:21:23.466  INFO 5552 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:21:24.772  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:21:24.781  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : cancel
+2014-08-07 18:21:24.786  INFO 5552 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 18:21:24.796  INFO 5552 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 18:21:32.255  INFO 5552 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:21:32.267  INFO 5552 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:21:33.091  INFO 5552 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:21:33.100  INFO 5552 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : cancel
+2014-08-07 18:21:33.106  INFO 5552 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 18:21:33.115  INFO 5552 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 18:21:33.823  INFO 5552 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-GET
+2014-08-07 18:21:34.570  INFO 5552 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/edit-POST
+2014-08-07 18:21:34.570  INFO 5552 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : strategy/edit-POST : cancel
+2014-08-07 18:21:34.576  INFO 5552 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 18:21:34.586  INFO 5552 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 18:21:38.722  INFO 5552 [http-nio-8090-exec-8] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/add-POST
+2014-08-07 18:21:38.751  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 18:21:38.762  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 18:21:40.528  INFO 5552 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:21:40.538  INFO 5552 [http-nio-8090-exec-10] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:21:41.735  INFO 5552 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:21:41.745  INFO 5552 [http-nio-8090-exec-1] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : cancel
+2014-08-07 18:21:41.751  INFO 5552 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 18:21:41.764  INFO 5552 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 18:21:42.871  INFO 5552 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:21:42.878  INFO 5552 [http-nio-8090-exec-3] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : stage
+2014-08-07 18:21:43.664  INFO 5552 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET
+2014-08-07 18:21:43.674  INFO 5552 [http-nio-8090-exec-5] --- o.q.sbs.controller.StrategyController    : strategy/delete-GET : delete
+2014-08-07 18:21:43.689  INFO 5552 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 18:21:43.697  INFO 5552 [http-nio-8090-exec-4] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 18:21:55.439  INFO 5552 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 18:21:55.450  INFO 5552 [http-nio-8090-exec-6] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 18:21:56.698  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 18:21:56.707  INFO 5552 [http-nio-8090-exec-9] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 18:22:01.817  INFO 5552 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 18:22:01.830  INFO 5552 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 18:22:44.574  INFO 5552 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 18:22:44.585  INFO 5552 [http-nio-8090-exec-7] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
+2014-08-07 18:23:10.840  INFO 5552 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : RequestMapping : strategy/list-GET
+2014-08-07 18:23:10.849  INFO 5552 [http-nio-8090-exec-2] --- o.q.sbs.controller.StrategyController    : Adding strategy object to model
