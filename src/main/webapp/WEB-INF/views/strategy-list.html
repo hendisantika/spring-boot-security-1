@@ -9,6 +9,7 @@
 
 <body>
 <div>
+	<!-- list strategies -->
 	<table>
 		<caption data-th-text="#{strategy.list.table.title}">Temp table title</caption>
 		<thead>
@@ -24,18 +25,41 @@
 				<td data-th-text="${strategy.id}">1</td>
 				<td data-th-text="${strategy.type}">Iron Butterfly</td>
 				<td data-th-text="${strategy.name}">Triple Butter</td>
-				<td><a href="#" data-th-href="@{/strategy/delete(id=${strategy.id},phase=stage)}">delete</a> | 
-					<a href="#" data-th-href="@{/getParam(id=${strategy.id})}">edit</a>
+				<td>
+					<a href="#" data-th-href="@{/strategy/edit(id=${strategy.id})}">edit</a> 
+					| 
+					<a href="#" data-th-href="@{/strategy/delete(id=${strategy.id},phase=stage)}">delete</a>
 				</td>
-			</tr>
-			<tr data-th-remove="all">
-				<td>2</td>
-				<td>Iron Condor</td>
-				<td>High Prob Hedged</td>
-				<td><a href="#">delete</a> | <a href="#">edit</a></td>
 			</tr>
 		</tbody>
 	</table>
+	
+	<!-- add strategies -->
+	<form action="#" data-th-action="@{/strategy/add}" data-th-object="${strategy}" method="post">
+		<table>
+			<caption data-th-text="#{strategy.list.add.title}">Add title</caption>
+			<thead>
+				<tr>
+					<th data-th-text="#{strategy.list.type.label}">type label</th>
+					<th data-th-text="#{strategy.list.name.label}">name label</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><input type="text" hidden="hidden" data-th-field="*{id}"/>
+						<input type="text" data-th-field="*{type}"/></td>
+					<td><input type="text" data-th-field="*{name}"/></td>
+				</tr>
+				<tr>
+					<td>
+						<button type="submit" data-th-text="#{add.button.label}">Action</button>
+					</td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+	
 </div>
 </body>
 </html>

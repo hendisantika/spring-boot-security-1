@@ -29,32 +29,33 @@ public class StrategyDAOImpl implements StrategyDAO{
 	 * @see org.qifeng.sbs.dao.StrategyDAO#addStrategy(org.qifeng.sbs.model.Strategy)
 	 */
 	public void addStrategy(Strategy strategy) {
-		// TODO Auto-generated method stub
-		
+		sessionFactory.getCurrentSession().save(strategy);
 	}
 
 	/* (non-Javadoc)
 	 * @see org.qifeng.sbs.dao.StrategyDAO#getStrategy(int)
 	 */
 	public Strategy getStrategy(int id) {
-		// TODO Auto-generated method stub
-		return null;
+		Strategy strategy = (Strategy)sessionFactory.getCurrentSession().get(Strategy.class, id);
+		return strategy;
 	}
 
 	/* (non-Javadoc)
 	 * @see org.qifeng.sbs.dao.StrategyDAO#updateStrategy(org.qifeng.sbs.model.Strategy)
 	 */
-	public void updateStrategy(Strategy stratgy) {
-		// TODO Auto-generated method stub
-		
+	public void updateStrategy(Strategy strategy) {
+		Strategy strategyToUpdate = getStrategy(strategy.getId());
+		strategyToUpdate.setName(strategy.getName());
+		strategyToUpdate.setType(strategy.getType());
+		sessionFactory.getCurrentSession().update(strategyToUpdate);
 	}
 
 	/* (non-Javadoc)
 	 * @see org.qifeng.sbs.dao.StrategyDAO#deleteStrategy(int)
 	 */
 	public void deleteStrategy(int id) {
-		// TODO Auto-generated method stub
-		
+		Strategy straetgy = getStrategy(id);
+		sessionFactory.getCurrentSession().delete(straetgy);
 	}
 
 	/* (non-Javadoc)

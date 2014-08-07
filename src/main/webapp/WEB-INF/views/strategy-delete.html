@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+	
+<head>
+    <meta charset="utf-8" />
+	<title data-th-text="#{strategy.delete.page.title}">Title</title>
+</head>
+
+<body>
+<div>
+	<!-- delete strategies -->
+	<table data-th-object="${strategy}">
+		<caption data-th-text="#{strategy.delete.head.title}">Delete title</caption>
+		<tbody>
+			<tr>
+				<td data-th-text="#{strategy.list.id.label}">id label</td>
+				<td><input type="text" data-th-field="*{id}"/></td>
+			</tr>
+			<tr>
+				<td data-th-text="#{strategy.list.type.label}">type label</td>
+				<td><input type="text" data-th-field="*{type}"/></td>
+			</tr>
+			<tr>
+				<td data-th-text="#{strategy.list.name.label}">name label</td>
+				<td><input type="text" data-th-field="*{name}"/></td>
+			</tr>
+			<tr>
+				<td>
+					<a href="#" data-th-href="@{/strategy/delete(id=*{id},phase=delete)}">
+					<button type="button" data-th-text="#{delete.button.label}">delete</button>
+					</a>
+				</td>
+				<td>
+					<a href="#" data-th-href="@{/strategy/delete(id=*{id},phase=cancel)}">
+					<button type="button" data-th-text="#{cancel.button.label}">cancel</button>
+					</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	
+</div>
+</body>
+</html>

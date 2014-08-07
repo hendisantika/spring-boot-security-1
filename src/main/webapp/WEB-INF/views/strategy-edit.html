@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+	
+<head>
+    <meta charset="utf-8" />
+	<title data-th-text="#{strategy.edit.head.title}">temp heading</title>
+</head>
+
+<body>
+<div>
+	<!-- edit strategies -->
+	<form action="#" data-th-action="@{/strategy/edit}" data-th-object="${strategy}" method="post">
+		<table>
+			<caption data-th-text="#{strategy.edit.head.title}">edit title</caption>
+			<tbody>
+				<tr>
+					<td data-th-text="#{strategy.list.type.label}">type label</td>
+					<td><input type="text" hidden="hidden" data-th-field="*{id}"/>
+						<input type="text" data-th-field="*{type}"/></td>
+				</tr>
+				<tr>
+					<td data-th-text="#{strategy.list.name.label}">name label</td>
+					<td><input type="text" data-th-field="*{name}"/></td>
+				</tr>
+				<tr>
+					<td>
+						<button type="submit" name="action" value="save" data-th-text="#{update.button.label}">save</button>
+					</td>
+					<td>
+						<button type="submit" name="action" value="cancel" data-th-text="#{cancel.button.label}">cancel</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+	
+</div>
+</body>
+</html>
