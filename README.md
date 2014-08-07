@@ -10,4 +10,5 @@
 1. Java Config ==> done
 2. Hibernate4 + CRUD ==> done
 3. Thymeleaf Prep and Mockup ==> done
-4. Thymeleaf CRUD ==> not yet
+4. Logger setting ==> done
+5. Thymeleaf CRUD ==> not yet

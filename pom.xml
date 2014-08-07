@@ -13,6 +13,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
   <!-- spring boot parent -->
    <parent>
       <groupId>org.springframework.boot</groupId>
@@ -46,7 +47,7 @@
 		<groupId>mysql</groupId>
 		<artifactId>mysql-connector-java</artifactId>
 	</dependency>
-    
+    <!-- unit test -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

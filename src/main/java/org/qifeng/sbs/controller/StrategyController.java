@@ -7,9 +7,10 @@ import java.util.List;
 
 import org.qifeng.sbs.model.Strategy;
 import org.qifeng.sbs.service.StrategyService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
@@ -22,6 +23,8 @@ import org.springframework.web.servlet.ModelAndView;
 @RequestMapping("/strategy")
 public class StrategyController {
 	
+	private static Logger Log = LoggerFactory.getLogger(StrategyController.class);
+	
 	@Autowired
 	private StrategyService strategyService;
 	
@@ -30,20 +33,9 @@ public class StrategyController {
 		ModelAndView modelAndView = new ModelAndView("strategy-list");
 		List<Strategy> strategies = strategyService.getStrategies();
 		modelAndView.addObject("strategies",strategies);
+		Log.info("listOfStrategies done");
 		return modelAndView;
 	}
-//	@RequestMapping(value="/list",  method=RequestMethod.GET)
-//	public String listOfStrategies(Model model) {
-//
-//		List<Strategy> strategies = strategyService.getStrategies();
-//		model.addAttribute("strategies", strategies);
-//
-//		if(! model.containsAttribute("strategy")) {
-//			Strategy strategy = new Strategy();
-//			model.addAttribute("strategy", strategy);
-//		}
-//		return "strategy-list";
-//	}
 
 	
 }
