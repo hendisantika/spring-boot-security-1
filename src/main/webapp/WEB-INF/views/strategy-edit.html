@@ -38,13 +38,6 @@
 		<form  class="form-horizontal" action="#" data-th-action="@{/strategy/edit}" data-th-object="${strategy}" method="post">
 			<table>
 				<tbody>
-				<!-- 
-					<tr>
-						<td data-th-text="#{strategy.list.type.label}">type label</td>
-						<td><input type="text" hidden="hidden" data-th-field="*{id}"/>
-							<input type="text" data-th-field="*{type}"/></td>
-					</tr>
-				 -->
 				 	<div class="form-group">
 				 		<label class="col-sm-4 control-label" data-th-text="#{strategy.list.type.label}">Strategy Type</label>
 				 		<div class="col-sm-8">
@@ -52,32 +45,23 @@
 	        				<input type="text" class="form-control" data-th-field="*{type}" ></input>
 				 		</div>
 				 	</div>
-				 	<!--  
-					<tr>
-						<td data-th-text="#{strategy.list.name.label}">name label</td>
-						<td><input type="text" data-th-field="*{name}"/></td>
-					</tr>
-					-->
 					<div class="form-group">
 						<label class="col-sm-4 control-label" data-th-text="#{strategy.list.name.label}">Strategy Name</label>
 						<div class="col-sm-8">
 							<input type="text" class="form-control" data-th-field="*{name}" />
 						</div>
 					</div>
-					<!--  
-					<tr>
-						<td>
-							<button type="submit" name="action" value="save" data-th-text="#{update.button.label}">save</button>
-						</td>
-						<td>
-							<button type="submit" name="action" value="cancel" data-th-text="#{cancel.button.label}">cancel</button>
-						</td>
-					</tr>
-					-->
 					<div class="form-group">
 						<div class="col-sm-offset-4 col-sm-8">
-							<button type="submit" class="btn btn-primary" name="action" value="save" data-th-text="#{update.button.label}">Save</button>
-							<button type="submit" class="btn btn-default active" name="action" value="cancel" data-th-text="#{cancel.button.label}">Cancel</button>
+							<button type="submit" class="btn btn-primary"        name="action" data-th-value="save"   data-th-text="#{button.action.save}">Save</button>
+							<button type="submit" class="btn btn-default active" name="action" data-th-value="cancel" data-th-text="#{button.action.cancel}">Cancel</button>
+						</div>
+					</div>
+					<!-- validation -->
+					<div class="form-group">
+						<div class="col-sm-offset-4 col-sm-8">
+							<p class="text-danger" data-th-if="${#fields.hasErrors('type')}" data-th-errors="*{type}">type error</p>
+							<p class="text-danger" data-th-if="${#fields.hasErrors('name')}" data-th-errors="*{name}">name error</p>
 						</div>
 					</div>
 				</tbody>

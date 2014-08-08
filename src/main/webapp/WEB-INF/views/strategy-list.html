@@ -50,13 +50,15 @@
 					<td data-th-text="${strategy.name}">Triple Butter</td>
 					<td style="text-align:center;"> 
 						<a href="#" data-th-href="@{/strategy/edit(id=${strategy.id})}">
-							<button type="button" class="btn btn-default btn-xs">
-					          <span class="glyphicon glyphicon-pencil"></span>&nbsp;&nbsp;Edit
+							<button type="button" class="btn btn-default btn-xs" >
+					          <span class="glyphicon glyphicon-pencil" data-th-text="#{button.label.update}">
+					          </span>
 					         </button></a> &nbsp;
 						
 						<a href="#" data-th-href="@{/strategy/delete(id=${strategy.id},phase=stage)}">
 							<button type="button" class="btn btn-default btn-xs">
-          						<span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Delete
+          						<span class="glyphicon glyphicon-trash" data-th-text="#{button.label.delete}">
+          						</span>
 							</button></a>
 					</td>
 				</tr>
@@ -81,7 +83,14 @@
 						<td><input type="text" hidden="hidden" data-th-field="*{id}"/></td>
 						<td><input class="form-control" type="text" data-th-field="*{type}" placeholder="Type"/></td>
 						<td><input class="form-control" type="text" data-th-field="*{name}" placeholder="Name"/></td>
-						<td><button type="submit" class="btn btn-primary" data-th-text="#{add.strategy.button.label}">Add strategy</button></td>
+						<td><button type="submit" class="btn btn-primary" data-th-text="#{button.label.add.strategy}">Add strategy</button></td>
+					</tr>
+					<!-- validation -->
+					<tr>
+						<td></td>
+						<td class="text-danger" data-th-if="${#fields.hasErrors('type')}" data-th-errors="*{type}">type error</td>
+						<td class="text-danger" data-th-if="${#fields.hasErrors('name')}" data-th-errors="*{name}">name error</td>
+						<td></td>
 					</tr>
 				</tbody>
 			</table>
