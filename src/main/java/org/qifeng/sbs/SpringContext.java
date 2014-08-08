@@ -22,7 +22,7 @@ public class SpringContext {
     @Bean
     public LocaleResolver localeResolver() {
         SessionLocaleResolver slr = new SessionLocaleResolver();
-        slr.setDefaultLocale(Locale.TAIWAN);
+        slr.setDefaultLocale(Locale.US);
         return slr;
     }
  

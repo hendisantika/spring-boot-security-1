@@ -40,12 +40,15 @@ public class StrategyController {
 	private MessageSource messageSource;
 	
 	//list strategies
-	@RequestMapping(value="/list",method=RequestMethod.GET)
+	@RequestMapping(value={"/","/list"},method=RequestMethod.GET)
 	public String listOfStrategies(Model model) {
 		Log.info("RequestMapping : strategy/list-GET");
 		
 		List<Strategy> strategies = strategyService.getStrategies();
 		model.addAttribute("strategies",strategies);
+		
+		// if there was an error in /add, we do not want to overwrite
+        // the existing strategy object containing the errors.
 		
 		//strategy object for "add strategy" passing between controller and html 
 		if(! model.containsAttribute("strategy")) {

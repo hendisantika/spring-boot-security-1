@@ -8,32 +8,48 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title data-th-text="#{strategy.list.page.title}">Title</title>
 	
-	<!-- Bootstrap -->
-	<link type="text/css" rel="stylesheet" data-th-href="@{/webjars/bootstrap/3.2.0/css/bootstrap.min.css}" />
 	
-	
-	
+	<link type="text/css" rel="stylesheet" data-th-href="@{/resources/css/bootstrap.min.css}" />
+	<link type="text/css" rel="stylesheet" data-th-href="@{/resources/css/plugins/metisMenu/metisMenu.min.css}" />
+	<link type="text/css" rel="stylesheet" data-th-href="@{/resources/font-awesome/css/font-awesome.css}" />
+	<link type="text/css" rel="stylesheet" data-th-href="@{/resources/css/sb-admin-2.css}" />
 	
 	<title th:text="#{admin.page.title}">Title</title>
 </head>
 
 <body>
-	<h1 data-th-text="#{admin.page.title}">Title</h1>
-	<p>
-		<a href="strategy/list.html">Strategy list</a><br/>
-	</p>
+
+	<div data-th-replace="fragments/sb-admin :: top-nav"></div>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<br />
+			<br />
+			<br />
+			<h1 data-th-text="#{admin.page.title}">Title</h1>
+			<p id="home_list">
+				<a href="strategy/list.html">Strategy list</a><br/>
+			</p>
+		</div>
+	</div>
+	
+	
+	
+	
+	
 	
 	
 
- <!-- Include all compiled plugins (below), or include individual files as needed -->
- <script type="text/css" data-th-src="@{/webjars/bootstrap/3.2.0/js/bootstrap.min.js}"></script>
- <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
- <script data-th-src="@{/webjars/jquery/2.1.1/jquery.min.js}"></script>
+ <script type="text/javascript" data-th-src="@{/resources/js/jquery-1.11.0.js}" ></script>
+ <script type="text/javascript" data-th-src="@{/resources/js/bootstrap.min.js}"></script>
+ <script type="text/javascript" data-th-src="@{/resources/js/plugins/metisMenu/metisMenu.min.js}"></script> 	
+ <script type="text/javascript" data-th-src="@{/resources/js/sb-admin-2.js}"></script>
+ 
 	
 	<script type="text/javascript">
         $(document).ready(function() {
         	
-            $('p').animate({
+            $('#home_list').animate({
                 fontSize: '48px'
             }, "slow");
         });
