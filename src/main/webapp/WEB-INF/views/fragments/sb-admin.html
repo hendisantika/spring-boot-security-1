@@ -235,17 +235,32 @@
                     <!-- /.dropdown-alerts -->
                 </li>
                 <!-- /.dropdown -->
-                <li class="dropdown">
+                <li class="dropdown" data-th-with="currentUser=${#httpServletRequest.userPrincipal?.name}">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                        <i class="fa fa-user fa-fw"></i>
+                        <font color="#049cbd" th:text="'&nbsp;' + ${currentUser} + '&nbsp;&nbsp;'">&nbsp;Dave&nbsp;&nbsp;</font> 
+                        <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
-                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        <li>
+                        	<a href="#">
+                        		<i class="fa fa-user fa-fw">
+                        		</i> User Profile
+                        	</a>
                         </li>
-                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        <li>
+                        	<a href="#">
+                        		<i class="fa fa-gear fa-fw">
+                        		</i> Settings
+                        	</a>
                         </li>
                         <li class="divider"></li>
-                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        <li>
+                        	<!--  <a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a> -->
+                        	<form class="navbar-form" data-th-action="@{/logout}" method="post">
+                        		<label for="mysubmit" class="btn"><i class="fa fa-sign-out fa-fw"></i>Log Out</label>
+                        		<input id="mysubmit" type="submit" value="Go" class="hidden"></input>
+                        	</form>
                         </li>
                     </ul>
                     <!-- /.dropdown-user -->

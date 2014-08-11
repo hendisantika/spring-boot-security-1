@@ -13,3 +13,6 @@
 4. Logger setting ==> done
 5. Thymeleaf CRUD ==> done
 6. Bootstrap basic ==> done
+7. login page ==> done
+8. In memory Spring Security ==> done
+

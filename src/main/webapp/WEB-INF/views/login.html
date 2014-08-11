@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+	
+<head>
+    <meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />	
+	
+	<link type="text/css" rel="stylesheet" data-th-href="@{/resources/css/bootstrap.min.css}" />
+	<link type="text/css" rel="stylesheet" data-th-href="@{/resources/css/plugins/metisMenu/metisMenu.min.css}" />
+	<link type="text/css" rel="stylesheet" data-th-href="@{/resources/font-awesome/css/font-awesome.css}" />
+	<link type="text/css" rel="stylesheet" data-th-href="@{/resources/css/sb-admin-2.css}" />
+	
+	<style>
+	  .no-border-on-me>thead>tr>th,
+	  .no-border-on-me>tbody>tr>th,
+	  .no-border-on-me>tfoot>tr>th,
+	  .no-border-on-me>thead>tr>td,
+	  .no-border-on-me>tbody>tr>td,
+	  .no-border-on-me>tfoot>tr>td
+	  {
+	   border-top-style: none;
+	   border-bottom-style: none;
+	  }
+	 </style>
+	 <title data-th-text="#{login.page.title}">Title</title>
+</head>
+	
+
+<body>
+<!-- format to suit fragmet -->
+
+<div class="container">                <!-- /#wrapper -->
+ <div class="row">
+   <div class="col-md-4 col-md-offset-4">
+     <div class="login-panel panel panel-default">
+      <div class="panel-body">
+<!--/ format to suit fragmet -->     
+  		<form name="f" data-th-action="@{/login}" method="post">
+  			<fieldset>
+  				<legend>Please Login</legend>
+  				<div data-th-if="${param.error}" class="alert alert-danger">
+  					Invalid username and password
+  				</div>
+  				<div data-th-if="${param.logout}" class="alert a	lert-success">
+  					You have been logged out
+  				</div>
+  					<div class="form-group">
+  						<label for="username">Username</label>
+  						<input class="form-control" placeholder="User ID" type="text" id="username" name="username"></input>
+  					</div>
+  					<div class="form-group">
+  						<label for="password">Password</label>
+  						<input class="form-control" placeholder="Password" type="password" name="password"></input>
+  					</div>
+  					<div class="form-group">
+  						<button type="submit" class="btn btn-lg btn-success btn-block">Login</button>
+  					</div>
+  			</fieldset>
+  		</form>
+<!-- format to suit fragmet -->
+	 </div>	<!-- /.panel-body -->
+   </div>   <!-- /.login-panel panel panel-default -->   
+  </div>    <!-- /.col-md-4 col-md-offset-4 -->   
+ </div>     <!-- /.row -->
+</div>      <!-- /.container -->
+<!--/ format to suit fragmet -->
+
+ <script type="text/javascript" data-th-src="@{/resources/js/jquery-1.11.0.js}" ></script>
+ <script type="text/javascript" data-th-src="@{/resources/js/bootstrap.min.js}"></script>
+ <script type="text/javascript" data-th-src="@{/resources/js/plugins/metisMenu/metisMenu.min.js}"></script> 	
+ <script type="text/javascript" data-th-src="@{/resources/js/sb-admin-2.js}"></script>
+</body>
+</html>
