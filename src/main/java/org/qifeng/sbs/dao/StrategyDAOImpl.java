@@ -25,24 +25,18 @@ public class StrategyDAOImpl implements StrategyDAO{
 		return sessionFactory.getCurrentSession();
 	}
 
-	/* (non-Javadoc)
-	 * @see org.qifeng.sbs.dao.StrategyDAO#addStrategy(org.qifeng.sbs.model.Strategy)
-	 */
+	@Override
 	public void addStrategy(Strategy strategy) {
 		sessionFactory.getCurrentSession().save(strategy);
 	}
 
-	/* (non-Javadoc)
-	 * @see org.qifeng.sbs.dao.StrategyDAO#getStrategy(int)
-	 */
+	@Override
 	public Strategy getStrategy(int id) {
 		Strategy strategy = (Strategy)sessionFactory.getCurrentSession().get(Strategy.class, id);
 		return strategy;
 	}
 
-	/* (non-Javadoc)
-	 * @see org.qifeng.sbs.dao.StrategyDAO#updateStrategy(org.qifeng.sbs.model.Strategy)
-	 */
+	@Override
 	public void updateStrategy(Strategy strategy) {
 		Strategy strategyToUpdate = getStrategy(strategy.getId());
 		strategyToUpdate.setName(strategy.getName());
@@ -50,17 +44,13 @@ public class StrategyDAOImpl implements StrategyDAO{
 		sessionFactory.getCurrentSession().update(strategyToUpdate);
 	}
 
-	/* (non-Javadoc)
-	 * @see org.qifeng.sbs.dao.StrategyDAO#deleteStrategy(int)
-	 */
+	@Override
 	public void deleteStrategy(int id) {
 		Strategy straetgy = getStrategy(id);
 		sessionFactory.getCurrentSession().delete(straetgy);
 	}
 
-	/* (non-Javadoc)
-	 * @see org.qifeng.sbs.dao.StrategyDAO#getStrategies()
-	 */
+	@Override
 	@SuppressWarnings("unchecked") //抓出來的List沒有轉型warning
 	public List<Strategy> getStrategies() {
 		Session session = getCurrentSession();

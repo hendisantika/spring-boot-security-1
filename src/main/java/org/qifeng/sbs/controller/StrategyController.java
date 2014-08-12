@@ -8,6 +8,7 @@ import java.util.Locale;
 
 import javax.validation.Valid;
 
+import org.qifeng.sbs.exception.UserNotFoundException;
 import org.qifeng.sbs.model.Strategy;
 import org.qifeng.sbs.service.StrategyService;
 import org.slf4j.Logger;
@@ -150,21 +151,6 @@ public class StrategyController {
 		}
 		 return "redirect:/strategy/list";
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	

@@ -9,17 +9,23 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.security.config.annotation.web.servlet.configuration.EnableWebMvcSecurity;
+import org.springframework.security.core.userdetails.UserDetailsService;
 
 /**
  * @author jackho
  *
  */
 @Configuration
-@EnableWebMvc
-@ComponentScan("org.qifeng.sbs")
+@EnableWebMvcSecurity
+@ComponentScan(basePackageClasses=org.qifeng.sbs.service.UserServiceImpl.class)
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
 
+	@Autowired // set in-memory authentication 
+	public void configureGlobal(UserDetailsService userDetailsService , AuthenticationManagerBuilder auth) throws Exception {
+		auth
+			.userDetailsService(userDetailsService);
+	}
 
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
@@ -35,14 +41,14 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
 			.logout()     //set log out perimitted for all user.
 				.permitAll();
 	}
-	@Autowired // set in-memory authentication 
-	public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-		auth.inMemoryAuthentication().
-		withUser("user").password("pass").roles("USER").and().
-		withUser("trader").password("pass").roles("USER","TRADER").and().
-		withUser("admin").password("pass").roles("USER","TRADER","ADMIN");
-		
-	}
+//	@Autowired
+//    public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
+//        auth.inMemoryAuthentication().
+//        withUser("user").password("password").roles("USER").and().
+//        withUser("trader").password("password").roles("USER","TRADER").and().
+//        withUser("admin").password("password").roles("USER", "TRADER", "ADMIN");
+//    }
+	
 	
 	
 }
