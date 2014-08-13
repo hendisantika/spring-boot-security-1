@@ -3,13 +3,18 @@
  */
 package org.qifeng.sbs.model;
 
+import java.security.Permissions;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashSet;
+import java.util.Set;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
+import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 import javax.persistence.Transient;
@@ -51,52 +56,57 @@ public class User extends BaseEntity implements UserDetails{
 	private boolean enabled;
 	
 	
-	//Role
-	@OneToOne
+	//One Role
+//	@OneToOne
+//	@JoinTable(name = "user_roles",
+//			joinColumns = {@JoinColumn(name = "user_id", referencedColumnName = "id")},
+//			inverseJoinColumns = {@JoinColumn(name = "role_id", referencedColumnName = "id")}
+//	)
+//	private Role role;
+	//Many Role
+	@OneToMany(fetch = FetchType.EAGER)
 	@JoinTable(name = "user_roles",
-			joinColumns = {@JoinColumn(name = "user_id", referencedColumnName = "id")},
-			inverseJoinColumns = {@JoinColumn(name = "role_id", referencedColumnName = "id")}
+			joinColumns = {@JoinColumn(name = "user_id",referencedColumnName = "id")},
+			inverseJoinColumns = {@JoinColumn(name = "role_id",referencedColumnName = "id")}
 	)
-	private Role role;
+	private Set<Role> roles;
 	
 
-	/**
-	 * @return the role
-	 */
-	public Role getRole() {
-		return role;
-	}
-
-
-	/**
-	 * @param role the role to set
-	 */
-	public void setRole(Role role) {
-		this.role = role;
-	}
-
-
-	//	@Transient
-//	private Collection<? extends GrantedAuthority> authorities = new ArrayList<>();
-	/**
-    //	 * @param authorities the authorities to set
-    //	 */
-//	public void setAuthorities(Collection<? extends GrantedAuthority> authorities) {
-//		this.authorities = authorities;
-//	}
-
-	@Override
-	public Collection<? extends GrantedAuthority> getAuthorities() {
-		Collection<GrantedAuthority> authorities = new ArrayList<>();
-		Role userRoles = this.getRole();
-		if (userRoles != null) {
-			SimpleGrantedAuthority authority = new SimpleGrantedAuthority(userRoles.getRolename());
-			authorities.add(authority);
+	@Transient
+	public Set<Permission> getPermissions() {
+		Set<Permission> perms = new HashSet<Permission>();
+		for (Role role : roles) {
+			perms.addAll(role.getPermissions());
 		}
+		return perms;
+	}
+	
+	@Transient
+	@Override
+    public Collection<GrantedAuthority> getAuthorities() {
+		Set<GrantedAuthority> authorities = new HashSet<GrantedAuthority>();
+		authorities.addAll(getRoles());
+		authorities.addAll(getPermissions());
 		return authorities;
+		
 	}
 
-	
+
+	/**
+	 * @return the roles
+	 */
+	public Set<Role> getRoles() {
+		return roles;
+	}
+
+
+	/**
+	 * @param roles the roles to set
+	 */
+	public void setRoles(Set<Role> roles) {
+		this.roles = roles;
+	}
+
 	public String getUsername() {
 		return username;
 	}
@@ -192,6 +202,9 @@ public class User extends BaseEntity implements UserDetails{
 		return "User [username=" + username + ", password=" + password
 				+ ", enabled=" + enabled + "]";
 	}
+	
+	
+	
 	
 	
 }

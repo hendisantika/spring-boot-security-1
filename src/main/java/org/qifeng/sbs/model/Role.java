@@ -8,6 +8,7 @@ import java.util.Set;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.OneToMany;
@@ -18,6 +19,7 @@ import javax.validation.constraints.Size;
 import org.hibernate.validator.constraints.NotEmpty;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.security.core.GrantedAuthority;
 
 /**
  * @author jackho
@@ -25,7 +27,7 @@ import org.slf4j.LoggerFactory;
  */
 @Entity
 @Table(name="ROLES")
-public class Role extends BaseEntity implements Serializable{
+public class Role extends BaseEntity implements Serializable , GrantedAuthority {
 
 	/**
 	 * 
@@ -43,15 +45,41 @@ public class Role extends BaseEntity implements Serializable{
 	
 
 	// user_roles
-	@OneToMany
+	@OneToMany(fetch = FetchType.EAGER)
 	@JoinTable(name = "user_roles",
 			joinColumns = {@JoinColumn(name = "role_id", referencedColumnName = "id")},
 			inverseJoinColumns = {@JoinColumn(name = "user_id", referencedColumnName = "id")}
 	)
 	private Set<User> userRoles;
+	// role_permissions
+	@OneToMany(fetch = FetchType.EAGER)
+	@JoinTable(name = "role_permissions",
+			joinColumns = { @JoinColumn(name = "role_id" , referencedColumnName = "id")},
+			inverseJoinColumns = { @JoinColumn(name = "permission_id", referencedColumnName = "id")}
+	)
 	
 	
+	private Set<Permission> permissions;
 	
+	@Override
+	public String getAuthority() {
+		return getRolename();
+	}
+	
+	/**
+	 * @return the permissions
+	 */
+	public Set<Permission> getPermissions() {
+		return permissions;
+	}
+
+	/**
+	 * @param permissions the permissions to set
+	 */
+	public void setPermissions(Set<Permission> permissions) {
+		this.permissions = permissions;
+	}
+
 	/**
 	 * @return the rolename
 	 */
@@ -119,13 +147,14 @@ public class Role extends BaseEntity implements Serializable{
 		return true;
 	}
 
-	/* (non-Javadoc)
-	 * @see java.lang.Object#toString()
-	 */
+
 	@Override
 	public String toString() {
 		return "Role [rolename=" + rolename + ", userRoles=" + userRoles + "]";
 	}
+
+	
+	
 	
 	
 }

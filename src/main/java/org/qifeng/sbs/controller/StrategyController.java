@@ -31,7 +31,8 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
  */
 @Controller
 @RequestMapping("/strategy")
-@PreAuthorize("hasRole('ROLE_ADMIN')")
+//@PreAuthorize("hasRole('ROLE_ADMIN')")
+@PreAuthorize("denyAll")
 public class StrategyController {
 	
 	private static Logger Log = LoggerFactory.getLogger(StrategyController.class);
@@ -44,6 +45,7 @@ public class StrategyController {
 	
 	//list strategies
 	@RequestMapping(value={"/","/list"},method=RequestMethod.GET)
+	@PreAuthorize("hasRole('CTRL_STRATEGY_LIST_GET')")
 	public String listOfStrategies(Model model) {
 		Log.info("RequestMapping : strategy/list-GET");
 		
@@ -64,6 +66,7 @@ public class StrategyController {
 	
 	//add new strategy
 	@RequestMapping(value="/add",method=RequestMethod.POST)
+	@PreAuthorize("hasRole('CTRL_STRATEGY_ADD_POST')")
 	public String addingStrategy(@Valid @ModelAttribute Strategy strategy , 
 								 BindingResult result,
 								 Model model,
@@ -85,6 +88,7 @@ public class StrategyController {
 	
 	//to strategy-edit.html & show the chosen strategy
 	@RequestMapping(value="/edit" , method=RequestMethod.GET)
+	@PreAuthorize("hasRole('CTRL_STRATEGY_EDIT_GET')")
 	public String editStrategyPage(@RequestParam(value="id" , required=true)Integer id , Model model) {
 		Log.info("RequestMapping : strategy/edit-GET Id to query = "+id);
 		
@@ -98,6 +102,7 @@ public class StrategyController {
 	}
 	// update a existing strategy
 	@RequestMapping(value="/edit" , method=RequestMethod.POST)
+	 @PreAuthorize("hasRole('CTRL_STRATEGY_EDIT_POST')")
 	public String editStrategy(@Valid @ModelAttribute Strategy strategy , 
 							   BindingResult result,
 							   Model model , 
@@ -130,6 +135,7 @@ public class StrategyController {
 	}
 	// delete a strategy
 	@RequestMapping(value="/delete" , method=RequestMethod.GET) 
+	@PreAuthorize("hasRole('CTRL_STRATEGY_DELETE_GET')")
 	public String deleteStrategy(@RequestParam(value="id" , required=true) Integer id , 
 			@RequestParam(value="phase" , required=true) String phase , Model model) {
 		

@@ -75,7 +75,7 @@ public class UserDAOImpl implements UserDAO {
 		userToUpdate.setUsername(user.getUsername());
 		userToUpdate.setPassword(user.getPassword());
 		userToUpdate.setEnabled(user.isEnabled());
-		userToUpdate.setRole(user.getRole());
+		userToUpdate.setRoles(user.getRoles());
 		getCurrentSession().update(userToUpdate);
 	}
 
