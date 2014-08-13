@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.config.annotation.web.servlet.configuration.EnableWebMvcSecurity;
@@ -20,6 +21,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 @Configuration
 @EnableWebMvcSecurity
 @ComponentScan(basePackageClasses=org.qifeng.sbs.service.UserServiceImpl.class)
+@EnableGlobalMethodSecurity(prePostEnabled=true)
 public class SecurityConfig extends WebSecurityConfigurerAdapter{
 
 	@Autowired // set in-memory authentication 
@@ -37,7 +39,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 			.authorizeRequests() //set resources permitted.
 				.antMatchers("/resources/**").permitAll()
 				.antMatchers("/error/**").permitAll()
-				.antMatchers("/strategy/**").hasRole("ADMIN") // add authorization
+//				.antMatchers("/strategy/**").hasRole("ADMIN") // add authorization
 				.anyRequest().authenticated()
 				.and()
 			.formLogin()  //set login page url.
