@@ -19,7 +19,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 @Configuration
 @EnableWebMvcSecurity
 @ComponentScan(basePackageClasses=org.qifeng.sbs.service.UserServiceImpl.class)
-public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
+public class SecurityConfig extends WebSecurityConfigurerAdapter{
 
 	@Autowired // set in-memory authentication 
 	public void configureGlobal(UserDetailsService userDetailsService , AuthenticationManagerBuilder auth) throws Exception {
@@ -31,11 +31,13 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
 	protected void configure(HttpSecurity http) throws Exception {
 		http
 			.authorizeRequests() //set resources permitted.
-				.antMatchers("/resources/**" , "/signup").permitAll()
+				.antMatchers("/resources/**").permitAll()
+				.antMatchers("/strategy/**").hasRole("ADMIN") // add authorization
 				.anyRequest().authenticated()
 				.and()
 			.formLogin()  //set login page url.
 				.loginPage("/login")
+				.defaultSuccessUrl("/")
 				.permitAll()
 				.and()
 			.logout()     //set log out perimitted for all user.

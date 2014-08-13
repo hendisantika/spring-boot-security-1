@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+	
+<head th:fragment="header">
+    <meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title data-th-text="#{strategy.list.page.title}">Title</title>
+	
+	
+	<link type="text/css" rel="stylesheet" data-th-href="@{/resources/css/bootstrap.min.css}" />
+	<link type="text/css" rel="stylesheet" data-th-href="@{/resources/css/plugins/metisMenu/metisMenu.min.css}" />
+	<link type="text/css" rel="stylesheet" data-th-href="@{/resources/font-awesome/css/font-awesome.css}" />
+	<link type="text/css" rel="stylesheet" data-th-href="@{/resources/css/sb-admin-2.css}" />
+	
+	<title th:text="#{trader.page.title}">Title</title>
+</head>
+
+<body>
+
+<div id="wrapper"> <!-- wrapper -->
+	
+	<div data-th-replace="fragments/sb-trader :: top-nav"></div>
+
+	<div data-th-replace="fragments/sb-trader :: vert-nav"></div>
+	
+	<div id="page-wrapper">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 data-th-text="#{trader.page.title}">Title</h1>
+				<p id="home_list">
+					<a href="strategy/list.html">Strategy list</a><br/>
+				</p>
+			</div> <!-- /.col-log-12 -->
+		</div> <!-- /.row -->
+	</div> <!-- /#page-wrapper -->
+</div>	<!-- /#wrapper -->
+	
+	
+	
+	
+	
+	
+	
+
+ <script type="text/javascript" data-th-src="@{/resources/js/jquery-1.11.0.js}" ></script>
+ <script type="text/javascript" data-th-src="@{/resources/js/bootstrap.min.js}"></script>
+ <script type="text/javascript" data-th-src="@{/resources/js/plugins/metisMenu/metisMenu.min.js}"></script> 	
+ <script type="text/javascript" data-th-src="@{/resources/js/sb-admin-2.js}"></script>
+ 
+	
+	<script type="text/javascript">
+        $(document).ready(function() {
+        	
+            $('#home_list').animate({
+                fontSize: '48px'
+            }, "slow");
+        });
+    </script>
+</body>
+</html>
