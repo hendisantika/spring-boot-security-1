@@ -5,7 +5,9 @@ package org.qifeng.sbs;
 
 import java.util.Locale;
 
+import org.qifeng.sbs.controller.AccessDeniedExceptionHandler;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ResourceBundleMessageSource;
 import org.springframework.core.Ordered;
@@ -21,22 +23,9 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
  *
  */
 @Configuration
+
 public class SpringContext extends WebMvcConfigurerAdapter{
 
-	/************************  Spring Security  ****************************/
-	// decide which folder to be exposed
-	@Override
-	public void addResourceHandlers(ResourceHandlerRegistry registry) {
-		registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
-	}
-
-	// set the highest order to login page
-	@Override
-	public void addViewControllers(ViewControllerRegistry registry) {
-		registry.addViewController("/login").setViewName("login");
-		registry.setOrder(Ordered.HIGHEST_PRECEDENCE);
-	}
-	/************************  End Spring Security  ****************************/
 	/************************  Internationalization  ****************************/
 	
     @Bean
@@ -69,4 +58,26 @@ public class SpringContext extends WebMvcConfigurerAdapter{
 //    	return source;
 //    }
     /************************ End Internationalization  ****************************/
+    /************************  Spring Security  ****************************/
+	// decide which folder to be exposed
+	@Override
+	public void addResourceHandlers(ResourceHandlerRegistry registry) {
+		registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
+	}
+
+	// set the highest order to login page
+	@Override
+	public void addViewControllers(ViewControllerRegistry registry) {
+		registry.addViewController("/login").setViewName("login");
+		registry.setOrder(Ordered.HIGHEST_PRECEDENCE);
+	}
+	/************************  End Spring Security  ****************************/
+    /************************ AccessDeniedExceptionHandler  ****************************/
+    @Bean
+    AccessDeniedExceptionHandler accessDeniedExceptionHandler() {
+    	AccessDeniedExceptionHandler accessDeniedExceptionHandler = new AccessDeniedExceptionHandler();
+    	accessDeniedExceptionHandler.setErrorPage("/error/accessDeniedPage");//This path will be handled by a new controller that we will create in a later step. 
+    	return accessDeniedExceptionHandler;
+    }
+    /************************ End AccessDeniedExceptionHandler  ****************************/
 }

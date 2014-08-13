@@ -43,16 +43,6 @@ public class HomeController {
 		}
 	}
 	
-	
-	
-	@RequestMapping("/getParam")
-	public String getParam(@RequestParam(value="id",required=true) Integer id) {
-		
-		System.out.println("id : "+id);
-		
-		return "home";
-	}
-	
 	private String getRole() {
 		String roleName = "";
 		Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
@@ -62,6 +52,14 @@ public class HomeController {
 			LOG.error("Principal is not an instance of org.qifeng.sbs.model.User");
 		}
 		return roleName;
+	}
+	
+	@RequestMapping("/getParam")
+	public String getParam(@RequestParam(value="id",required=true) Integer id) {
+		
+		System.out.println("id : "+id);
+		
+		return "home";
 	}
 			
 }

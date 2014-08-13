@@ -3,6 +3,7 @@
  */
 package org.qifeng.sbs;
 
+import org.qifeng.sbs.controller.AccessDeniedExceptionHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -26,12 +27,16 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 		auth
 			.userDetailsService(userDetailsService);
 	}
+	
+	@Autowired
+	AccessDeniedExceptionHandler accessDeniedExceptionHandler;
 
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		http
 			.authorizeRequests() //set resources permitted.
 				.antMatchers("/resources/**").permitAll()
+				.antMatchers("/error/**").permitAll()
 				.antMatchers("/strategy/**").hasRole("ADMIN") // add authorization
 				.anyRequest().authenticated()
 				.and()
@@ -41,7 +46,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 				.permitAll()
 				.and()
 			.logout()     //set log out perimitted for all user.
-				.permitAll();
+				.permitAll()
+				.and()
+			.exceptionHandling()
+				.accessDeniedHandler(accessDeniedExceptionHandler);
 	}
 //	@Autowired
 //    public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {

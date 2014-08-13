@@ -9,6 +9,7 @@ import javax.annotation.Resource;
 import javax.sql.DataSource;
 
 import org.hibernate.SessionFactory;
+import org.qifeng.sbs.controller.AccessDeniedExceptionHandler;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -40,6 +41,7 @@ public class DatabaseConfig {
     
     @Resource
     private Environment env;
+
     
     @Bean 
     public DataSource dataSource() {
