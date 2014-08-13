@@ -8,6 +8,7 @@ import java.util.List;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.qifeng.sbs.exception.DuplicateUserException;
 import org.qifeng.sbs.exception.UserNotFoundException;
 import org.qifeng.sbs.model.User;
 import org.slf4j.Logger;
@@ -44,7 +45,7 @@ public class UserDAOImpl implements UserDAO {
 	}
 
 	@Override
-	public void addUser(User user) {
+	public void addUser(User user) throws DuplicateUserException {
 		LOG.debug("UserDAOImpl.save() - ["+ user.getUsername() +"]"); 
 		getCurrentSession().save(user);
 	}
@@ -74,7 +75,7 @@ public class UserDAOImpl implements UserDAO {
 		userToUpdate.setUsername(user.getUsername());
 		userToUpdate.setPassword(user.getPassword());
 		userToUpdate.setEnabled(user.isEnabled());
-		userToUpdate.setAuthorities(user.getAuthorities());
+		userToUpdate.setRole(user.getRole());
 		getCurrentSession().update(userToUpdate);
 	}
 

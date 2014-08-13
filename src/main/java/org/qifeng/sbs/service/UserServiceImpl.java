@@ -8,6 +8,7 @@ import java.util.Collection;
 import java.util.List;
 
 import org.qifeng.sbs.dao.UserDAO;
+import org.qifeng.sbs.exception.DuplicateUserException;
 import org.qifeng.sbs.exception.UserNotFoundException;
 import org.qifeng.sbs.model.User;
 import org.slf4j.Logger;
@@ -37,20 +38,21 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		try {
-		    Collection<GrantedAuthority> authorities = new ArrayList<>();
-		    SimpleGrantedAuthority authority = new SimpleGrantedAuthority("ROLE_ADMIN");
-		    authorities.add(authority);
-
-		    User userObject = getUser(username);
-		    userObject.setAuthorities(authorities);
-		    return userObject;
+//		    Collection<GrantedAuthority> authorities = new ArrayList<>();
+//		    SimpleGrantedAuthority authority = new SimpleGrantedAuthority("ROLE_ADMIN");
+//		    authorities.add(authority);
+//
+//		    User userObject = getUser(username);
+//		    userObject.setAuthorities(authorities);
+//		    return userObject;
+			return getUser(username);
 		} catch (UserNotFoundException e) {
 			throw new UsernameNotFoundException(e.getMessage());
 		}
 	}
 
 	@Override
-	public void addUser(User user) {
+	public void addUser(User user) throws DuplicateUserException {
 		userDAO.addUser(user);
 	}
 

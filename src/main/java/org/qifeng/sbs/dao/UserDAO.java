@@ -5,6 +5,7 @@ package org.qifeng.sbs.dao;
 
 import java.util.List;
 
+import org.qifeng.sbs.exception.DuplicateUserException;
 import org.qifeng.sbs.exception.UserNotFoundException;
 import org.qifeng.sbs.model.User;
 
@@ -14,7 +15,7 @@ import org.qifeng.sbs.model.User;
  */
 public interface UserDAO {
 	
-	public void addUser(User user);
+	public void addUser(User user) throws DuplicateUserException;
 	
 	public User getUser(int userId) throws UserNotFoundException;
 	

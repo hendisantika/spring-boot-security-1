@@ -8,6 +8,9 @@ import java.util.Collection;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 import javax.validation.constraints.NotNull;
@@ -17,6 +20,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 /**
@@ -47,20 +51,51 @@ public class User extends BaseEntity implements UserDetails{
 	private boolean enabled;
 	
 	
-
-	@Transient
-	private Collection<? extends GrantedAuthority> authorities = new ArrayList<>();
+	//Role
+	@OneToOne
+	@JoinTable(name = "user_roles",
+			joinColumns = {@JoinColumn(name = "user_id", referencedColumnName = "id")},
+			inverseJoinColumns = {@JoinColumn(name = "role_id", referencedColumnName = "id")}
+	)
+	private Role role;
 	
+
+	/**
+	 * @return the role
+	 */
+	public Role getRole() {
+		return role;
+	}
+
+
+	/**
+	 * @param role the role to set
+	 */
+	public void setRole(Role role) {
+		this.role = role;
+	}
+
+
+	//	@Transient
+//	private Collection<? extends GrantedAuthority> authorities = new ArrayList<>();
+	/**
+    //	 * @param authorities the authorities to set
+    //	 */
+//	public void setAuthorities(Collection<? extends GrantedAuthority> authorities) {
+//		this.authorities = authorities;
+//	}
+
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {
-		return this.authorities;
+		Collection<GrantedAuthority> authorities = new ArrayList<>();
+		Role userRoles = this.getRole();
+		if (userRoles != null) {
+			SimpleGrantedAuthority authority = new SimpleGrantedAuthority(userRoles.getRolename());
+			authorities.add(authority);
+		}
+		return authorities;
 	}
-	/**
-	 * @param authorities the authorities to set
-	 */
-	public void setAuthorities(Collection<? extends GrantedAuthority> authorities) {
-		this.authorities = authorities;
-	}
+
 	
 	public String getUsername() {
 		return username;
